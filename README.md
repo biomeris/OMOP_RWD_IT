@@ -11,7 +11,7 @@ Si prega di seguire le istruzioni sotto riportate per condurre le analisi necess
 
 Per eseguire le analisi è necessario avere installato R, RTools (Windows), RStudio e Java. Si consiglia di installare R 4.2.3 per una massima compatibilità.
 
-Le istruzioni per poter configurare correttamente l'ambiente R possono essere trovate al seguente link: https://ohdsi.github.io/Hades/rSetup.html .
+Le istruzioni per poter configurare correttamente l'ambiente R si trovano al seguente link: https://ohdsi.github.io/Hades/rSetup.html .
 
 ### Creazione della libreria per il progetto e sincronizzazione dei pacchetti R necessari
 
