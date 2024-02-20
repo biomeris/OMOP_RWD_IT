@@ -1,8 +1,3 @@
-# Please restore the renv file first:
-# if you have not installed renv, please first install: install.packages("renv")
-# renv::activate()
-# renv::restore()
-
 library(DatabaseConnector)
 
 # Connect to database
