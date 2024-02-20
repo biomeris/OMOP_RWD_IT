@@ -15,7 +15,11 @@ Le istruzioni per poter configurare correttamente l'ambiente R si trovano al seg
 
 ### Creazione della libreria per il progetto e sincronizzazione dei pacchetti R necessari
 
-[Descrivere primo step di creazione della libreria del progetto e sincronizzazione dei pacchetti R].
+Prima di avviare le analisi, è fondamentale verificare che tutti i pacchetti R necessari siano installati. Inoltre, è essenziale che ogni centro utilizzi la stessa versione dei pacchetti R per garantire la comparabilità dei risultati.
+
+Per garantire l'installazione corretta dei pacchetti nella versione richiesta, è necessario eseguire il codice contenuto nel file CreateProjectLibrary.R. 
+
+Questo script deve essere eseguito una sola volta, prima dell'avvio della prima analisi. Una volta completata l'esecuzione, non sarà più necessario utilizzarlo nelle analisi successive.
 
 ### Esecuzione delle analisi
 
