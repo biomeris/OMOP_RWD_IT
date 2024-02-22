@@ -99,7 +99,7 @@
     },
     "DataQualityDashboard": {
       "Package": "DataQualityDashboard",
-      "Version": "2.5.0",
+      "Version": "2.6.0",
       "Source": "GitHub",
       "Remotes": "ohdsi/Eunomia",
       "RemoteType": "github",
@@ -107,7 +107,7 @@
       "RemoteRepo": "DataQualityDashboard",
       "RemoteUsername": "OHDSI",
       "RemoteRef": "HEAD",
-      "RemoteSha": "81230bde213b99c5d26a177c7922b70a15a06349",
+      "RemoteSha": "6ef7ee2dd1116741e3fe9907ef4d9cc98eccb96c",
       "Requirements": [
         "DatabaseConnector",
         "ParallelLogger",
@@ -123,7 +123,7 @@
         "stringr",
         "tidyselect"
       ],
-      "Hash": "8a0b18821a45dc428e57f7ae0c649620"
+      "Hash": "9bff21760d807c44410288f29d07424f"
     },
     "DatabaseConnector": {
       "Package": "DatabaseConnector",
