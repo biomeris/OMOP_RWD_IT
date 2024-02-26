@@ -7,6 +7,8 @@ library(Achilles)
 # Load connection details
 source(here("ConnectionDetails.R"))
 
+options(connectionObserver = NULL)
+
 # where should the results and logs go?
 outputFolder <- file.path(here(), "results_Achilles")
 
