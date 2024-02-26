@@ -4,7 +4,7 @@ library(DatabaseConnector)
 # please see examples to connect here:
 # https://ohdsi.github.io/DatabaseConnector/articles/Connecting.html
 connectionDetails <- createConnectionDetails(
-  dbms = ,
+  dbms = '...',
   server = '...',
   user = '...',
   password = '...',
