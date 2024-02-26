@@ -34,3 +34,16 @@ achilles(connectionDetails = connectionDetails,
          outputFolder = outputFolder,
          verboseMode = verboseMode,
          excludeAnalysisIds = excludeAnalysisIds)
+
+# *******************************************************
+# SECTION 3: Export results
+# *******************************************************
+
+exportToAres(
+  connectionDetails = connectionDetails,
+  cdmDatabaseSchema = cdmDatabaseSchema,
+  resultsDatabaseSchema = resultsDatabaseSchema,
+  vocabDatabaseSchema = vocabDatabaseSchema,
+  outputPath = outputFolder,
+  reports = c()
+)
