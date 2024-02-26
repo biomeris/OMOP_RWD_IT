@@ -8,8 +8,8 @@ library(DataQualityDashboard)
 source(here("ConnectionDetails.R"))
 
 # where should the results and logs go?
-outputFolder <- "results_DQD"
-outputFile <- "dqd-result.json"
+outputFolder <- file.path(here(), "results_DQD")
+outputFile <- paste0(databaseId, "-dqd-result.json")
 
 # determine how many threads (concurrent SQL sessions) to use 
 numThreads <- 1 

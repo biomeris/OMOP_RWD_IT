@@ -7,6 +7,9 @@ library(CatalogueExport)
 # Load connection details
 source(here("ConnectionDetails.R"))
 
+# where should the results and logs go?
+outputFolder <- file.path(here(), "results_CatalogueExport")
+
 # *******************************************************
 # SECTION 2: Run the package
 # *******************************************************
@@ -15,4 +18,5 @@ catalogueExport(connectionDetails,
                 resultsDatabaseSchema=resultsDatabaseSchema,
                 vocabDatabaseSchema = vocabDatabaseSchema,
                 sourceName = databaseId, 
-                cdmVersion = cdmVersion)
+                cdmVersion = cdmVersion,
+                outputFolder = outputFolder)

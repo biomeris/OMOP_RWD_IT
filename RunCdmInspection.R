@@ -13,8 +13,8 @@ authors <- 'OHDSI Italy - OMOP_RWD_IT' # used on the title page
 # For Oracle: define a schema that can be used to emulate temp tables:
 oracleTempSchema <- NULL
 
-# Details for connecting to the CDM and storing the results
-outputFolder <- file.path(getwd(), "results", databaseId)
+# where should the results and logs go?
+outputFolder <- file.path(here(), "results_CdmInspection")
 
 # Url to check the version of your local Atlas
 baseUrl <- webapi_baseUrl

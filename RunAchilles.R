@@ -8,7 +8,7 @@ library(Achilles)
 source(here("ConnectionDetails.R"))
 
 # where should the results and logs go?
-outputFolder <- "results_Achilles"
+outputFolder <- file.path(here(), "results_Achilles")
 
 # small counts
 smallCellCount <- 5 # To avoid patient identification, cells with small counts (<= smallCellCount) are deleted. Set to 0 for complete summary without small cell count restrictions.
