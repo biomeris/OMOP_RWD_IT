@@ -17,13 +17,26 @@ Le istruzioni per poter configurare correttamente l'ambiente R si trovano al seg
 
 Prima di avviare le analisi, è fondamentale verificare che tutti i pacchetti R necessari siano installati. Inoltre, è essenziale che ogni centro utilizzi la stessa versione dei pacchetti R per garantire la comparabilità dei risultati.
 
-Per garantire l'installazione corretta dei pacchetti nella versione richiesta, è necessario eseguire il codice contenuto nel file CreateProjectLibrary.R. 
+Per garantire l'installazione corretta dei pacchetti nella versione richiesta, è necessario eseguire il codice contenuto nel file **CreateProjectLibrary.R**. 
 
 Questo script deve essere eseguito una sola volta, prima dell'avvio della prima analisi. Una volta completata l'esecuzione, non sarà più necessario utilizzarlo nelle analisi successive.
 
 ### Esecuzione delle analisi
 
-L'unico file che richiede modifiche è ConnectionDetails.R. Si prega di compilarlo con tutte le informazioni necessarie, adattandole alla propria situazione.
+L'unico file che richiede modifiche è **ConnectionDetails.R**. Si prega di compilarlo con tutte le informazioni necessarie, adattandole alla propria situazione prima di eseguire le analisi. Le informazioni inserite saranno poi necessarie per la connessione al database e l'esecuzione delle analisi.
+
+#### Data Quality Dashboard
+Il file **RunDQD.R** contiene il codice necessario per eseguire la Data Quality Dashboard. Per garantire la corretta esecuzione, si prega di non apportare modifiche al file RunDQD.R.
+
+Una volta eseguito lo script, i risultati saranno salvati all'interno della cartella "results_DQD".
+
+#### Achilles
+
+#### CdmInspection
+
+#### CatalogueExport
+
+#### Ares
 
 [Descrivere gli altri script.]
 
