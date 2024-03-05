@@ -26,11 +26,14 @@ Questo script deve essere eseguito una sola volta, prima dell'avvio della prima 
 L'unico file che richiede modifiche è **ConnectionDetails.R**. Si prega di compilarlo con tutte le informazioni necessarie, adattandole alla propria situazione prima di eseguire le analisi. Le informazioni inserite saranno poi necessarie per la connessione al database e l'esecuzione delle analisi.
 
 #### Data Quality Dashboard
-Il file **RunDQD.R** contiene il codice necessario per eseguire la Data Quality Dashboard. Per garantire la corretta esecuzione, si prega di non apportare modifiche al file RunDQD.R.
+Il file **RunDQD.R** contiene il codice necessario per eseguire la Data Quality Dashboard. Per garantire la corretta esecuzione, si prega di non apportare modifiche allo script.
 
 Una volta eseguito lo script, i risultati saranno salvati all'interno della cartella "results_DQD".
 
 #### Achilles
+Il file **RunAchilles.R** contiene il codice necessario per eseguire Achilles. Per garantire la corretta esecuzione, si prega di non apportare modifiche allo script.
+
+Una volta terminata, la cartella "results_Achilles" conterrà i log relativi all'esecuzione.
 
 #### CdmInspection
 
