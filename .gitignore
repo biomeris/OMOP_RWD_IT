@@ -3,7 +3,9 @@
 .RData
 .Ruserdata
 .Rprofile
+.DS_Store
 output/
 results/
 renv/
+extras/network-unmapped-source-codes.csv
 

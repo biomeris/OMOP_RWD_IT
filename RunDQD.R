@@ -31,7 +31,7 @@ csvFile <- "" # only needed if writeToCsv is set to TRUE
 checkLevels <- c("TABLE", "FIELD", "CONCEPT")
 
 # which CDM tables to exclude? 
-tablesToExclude <- c() 
+tablesToExclude <- c("CONCEPT", "VOCABULARY", "CONCEPT_ANCESTOR", "CONCEPT_RELATIONSHIP", "CONCEPT_CLASS", "CONCEPT_SYNONYM", "RELATIONSHIP", "DOMAIN", "COHORT_DEFINITION")  
 
 # *******************************************************
 # SECTION 2: Run the package

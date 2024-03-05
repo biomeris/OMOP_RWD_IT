@@ -34,6 +34,30 @@
       ],
       "Hash": "268c19ca4b5dfce8ff5213a80672d716"
     },
+    "AresIndexer": {
+      "Package": "AresIndexer",
+      "Version": "0.2.0",
+      "Source": "GitHub",
+      "Remotes": "ohdsi/Achilles",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "AresIndexer",
+      "RemoteUsername": "OHDSI",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "7bcaa9a56af7a1b4f73e50ea8901dbd22830031b",
+      "Requirements": [
+        "Achilles",
+        "DatabaseConnector",
+        "R",
+        "SqlRender",
+        "data.table",
+        "dplyr",
+        "jsonlite",
+        "lubridate",
+        "stringr"
+      ],
+      "Hash": "511b82a2d5263924bff8926eea92c30f"
+    },
     "CatalogueExport": {
       "Package": "CatalogueExport",
       "Version": "1.0.2",
@@ -88,14 +112,14 @@
     },
     "DBI": {
       "Package": "DBI",
-      "Version": "1.2.1",
+      "Version": "1.2.2",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "methods"
       ],
-      "Hash": "9b4993e98e0e19da84c168460c032fef"
+      "Hash": "164809cd72e1d5160b4cb3aa57f510fe"
     },
     "DataQualityDashboard": {
       "Package": "DataQualityDashboard",
@@ -581,24 +605,24 @@
     },
     "curl": {
       "Package": "curl",
-      "Version": "5.2.0",
+      "Version": "5.2.1",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
-      "Hash": "ce88d13c0b10fe88a37d9c59dba2d7f9"
+      "Hash": "411ca2c03b1ce5f548345d2fc2685f7a"
     },
     "data.table": {
       "Package": "data.table",
-      "Version": "1.15.0",
+      "Version": "1.15.2",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "methods"
       ],
-      "Hash": "cfbbb4aed6e78cd45f17123a9ec9981a"
+      "Hash": "536dfe4ac4093b5d115caed7a1a7223b"
     },
     "dbplyr": {
       "Package": "dbplyr",
@@ -1754,7 +1778,12 @@
     "renv": {
       "Package": "renv",
       "Version": "1.0.4",
-      "Source": "Repository"
+      "Source": "Repository",
+      "Repository": "RSPM",
+      "Requirements": [
+        "utils"
+      ],
+      "Hash": "11abaf7c540ff33f94514d50f929bfd1"
     },
     "rjson": {
       "Package": "rjson",
