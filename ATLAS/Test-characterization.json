@@ -1,0 +1,143 @@
+{
+  "id": 2,
+  "name": "[OMOP_RWD_IT] Test analisi caratterizzazione ATLAS",
+  "cohorts": [
+    {
+      "id": 4,
+      "name": "[OMOP_RWD_IT] Tutti i pazienti",
+      "expression": {
+        "cdmVersionRange": ">=5.0.0",
+        "PrimaryCriteria": {
+          "CriteriaList": [
+            {
+              "ObservationPeriod": {
+                "PeriodLength": {
+                  "Value": 0,
+                  "Op": "gte"
+                }
+              }
+            }
+          ],
+          "ObservationWindow": {
+            "PriorDays": 0,
+            "PostDays": 0
+          },
+          "PrimaryCriteriaLimit": {
+            "Type": "First"
+          }
+        },
+        "ConceptSets": [],
+        "QualifiedLimit": {
+          "Type": "First"
+        },
+        "ExpressionLimit": {
+          "Type": "First"
+        },
+        "InclusionRules": [],
+        "CensoringCriteria": [],
+        "CollapseSettings": {
+          "CollapseType": "ERA",
+          "EraPad": 0
+        },
+        "CensorWindow": {}
+      }
+    }
+  ],
+  "featureAnalyses": [
+    {
+      "id": 74,
+      "type": "PRESET",
+      "name": "Demographics Gender",
+      "domain": "DEMOGRAPHICS",
+      "statType": "PREVALENCE",
+      "descr": "Gender of the subject.",
+      "design": "DemographicsGender",
+      "description": "Gender of the subject."
+    },
+    {
+      "id": 77,
+      "type": "PRESET",
+      "name": "Demographics Age",
+      "domain": "DEMOGRAPHICS",
+      "statType": "DISTRIBUTION",
+      "descr": "Age of the subject on the index date (in years).",
+      "design": "DemographicsAge",
+      "description": "Age of the subject on the index date (in years)."
+    }
+  ],
+  "parameters": [],
+  "stratas": [
+    {
+      "id": 1,
+      "name": "MALE",
+      "criteria": {
+        "Type": "ALL",
+        "Count": null,
+        "CriteriaList": [],
+        "DemographicCriteriaList": [
+          {
+            "Age": null,
+            "Gender": [
+              {
+                "CONCEPT_ID": 8507,
+                "CONCEPT_NAME": "MALE",
+                "STANDARD_CONCEPT": null,
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "INVALID_REASON": null,
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_CODE": "M",
+                "DOMAIN_ID": "Gender",
+                "VOCABULARY_ID": "Gender",
+                "CONCEPT_CLASS_ID": null
+              }
+            ],
+            "Race": null,
+            "Ethnicity": null,
+            "OccurrenceStartDate": null,
+            "OccurrenceEndDate": null
+          }
+        ],
+        "Groups": []
+      }
+    },
+    {
+      "id": 2,
+      "name": "FEMALE",
+      "criteria": {
+        "Type": "ALL",
+        "Count": null,
+        "CriteriaList": [],
+        "DemographicCriteriaList": [
+          {
+            "Age": null,
+            "Gender": [
+              {
+                "CONCEPT_ID": 8532,
+                "CONCEPT_NAME": "FEMALE",
+                "STANDARD_CONCEPT": null,
+                "STANDARD_CONCEPT_CAPTION": "Unknown",
+                "INVALID_REASON": null,
+                "INVALID_REASON_CAPTION": "Unknown",
+                "CONCEPT_CODE": "F",
+                "DOMAIN_ID": "Gender",
+                "VOCABULARY_ID": "Gender",
+                "CONCEPT_CLASS_ID": null
+              }
+            ],
+            "Race": null,
+            "Ethnicity": null,
+            "OccurrenceStartDate": null,
+            "OccurrenceEndDate": null
+          }
+        ],
+        "Groups": []
+      }
+    }
+  ],
+  "strataOnly": false,
+  "strataConceptSets": [],
+  "skeletonType": "CohortCharacterizationStudy",
+  "skeletonVersion": "v0.0.1",
+  "organizationName": "OHDSI",
+  "stratifiedBy": "Gender"
+}
