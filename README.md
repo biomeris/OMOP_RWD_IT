@@ -50,15 +50,17 @@ Il file AresIndexer.R contiene il codice necessario per eseguire AresIndexer. Pe
 
 Al termine dell'esecuzione, all'interno della cartella output_Ares troverete i risultati dell'esecuzione. All'interno della cartella, sarà presente un file zip dal nome **Results_Ares_*databaseId*.zip**, che dovrà essere condiviso con il centro coordinatore. All'interno di questo file si trovano i risultati dell'esecuzione della DQD e di Achilles in un formato compatibile con [Ares](https://github.com/OHDSI/Ares).
 
-[Descrivere gli altri script.]
-
 ## Problemi
 
 Se riscontri problemi o hai domande, per favore invia un'email a vittoria.ramella@biomeris.it.
 
 ## Condivisione dei risultati
+Al termine delle analisi, se tutto avrà funzionato correttamente ,ogni centro avrà a disposizione i seguenti file:
+* Results_Ares_*databaseId*.zip
+* Results_Inspection_*databaseId*.zip
+* Results_Catalogue_*databaseId*.zip
+* [risultati atlas]
 
-Se tutto ha funzionato correttamente, [...].
-[Inserire modalità di condivisione dei risultati.]
+I file elencati, dovranno essere condivisi con il centro coordinatore secondo le modalità comunicate.
 
 Grazie!
