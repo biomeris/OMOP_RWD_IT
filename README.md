@@ -38,7 +38,7 @@ Una volta terminata, la cartella "results_Achilles" conterrà i log relativi all
 #### CdmInspection
 Il file **RunCdmInspection.R** contiene il codice necessario per eseguire CdmInspection. Per garantire la corretta esecuzione, si prega di non apportare modifiche allo script.
 
-Al termine dell'esecuzione, all'interno della cartella results_CdmInspection troverete i risultati e i log dell'esecuzione. All'interno della cartella, sarà presente un file zip dal nome **Results_Inspection_*databaseId***, che dovrà essere condiviso con il centro coordinatore.
+Al termine dell'esecuzione, all'interno della cartella results_CdmInspection troverete i risultati e i log dell'esecuzione. All'interno della cartella, sarà presente un file zip dal nome **Results_Inspection_*databaseId*.zip**, che dovrà essere condiviso con il centro coordinatore.
 
 #### CatalogueExport
 
