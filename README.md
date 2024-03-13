@@ -41,6 +41,9 @@ Il file **RunCdmInspection.R** contiene il codice necessario per eseguire CdmIns
 Al termine dell'esecuzione, all'interno della cartella results_CdmInspection troverete i risultati e i log dell'esecuzione. All'interno della cartella, sarà presente un file zip dal nome **Results_Inspection_*databaseId*.zip**, che dovrà essere condiviso con il centro coordinatore.
 
 #### CatalogueExport
+Il file RunCatalogueExport.R contiene il codice necessario per eseguire CatalogueExport. Per garantire la corretta esecuzione, si prega di non apportare modifiche allo script.
+
+Al termine dell'esecuzione, all'interno della cartella results_CdmInspection troverete i risultati e i log dell'esecuzione. All'interno della cartella, sarà presente un file zip dal nome Results_Inspection_databaseId.zip, che dovrà essere condiviso con il centro coordinatore.
 
 #### Ares
 
