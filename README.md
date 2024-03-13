@@ -43,9 +43,12 @@ Al termine dell'esecuzione, all'interno della cartella results_CdmInspection tro
 #### CatalogueExport
 Il file RunCatalogueExport.R contiene il codice necessario per eseguire CatalogueExport. Per garantire la corretta esecuzione, si prega di non apportare modifiche allo script.
 
-Al termine dell'esecuzione, all'interno della cartella results_CdmInspection troverete i risultati e i log dell'esecuzione. All'interno della cartella, sarà presente un file zip dal nome Results_Inspection_databaseId.zip, che dovrà essere condiviso con il centro coordinatore.
+Al termine dell'esecuzione, all'interno della cartella results_CatalogueExport troverete i risultati e i log dell'esecuzione. All'interno della cartella, sarà presente un file zip dal nome **Results_Catalogue_*databaseId*.zip**, che dovrà essere condiviso con il centro coordinatore.
 
 #### Ares
+Il file AresIndexer.R contiene il codice necessario per eseguire AresIndexer. Per garantire la corretta esecuzione, si prega di non apportare modifiche allo script.
+
+Al termine dell'esecuzione, all'interno della cartella output_Ares troverete i risultati dell'esecuzione. All'interno della cartella, sarà presente un file zip dal nome **Results_Ares_*databaseId*.zip**, che dovrà essere condiviso con il centro coordinatore. All'interno di questo file si trovano i risultati dell'esecuzione della DQD e di Achilles in un formato compatibile con [Ares](https://github.com/OHDSI/Ares).
 
 [Descrivere gli altri script.]
 
