@@ -20,3 +20,9 @@ catalogueExport(connectionDetails,
                 sourceName = databaseId, 
                 cdmVersion = cdmVersion,
                 outputFolder = outputFolder)
+
+## zip everything together
+zip(
+  zipfile = file.path(outputFolder, paste0("Results_Catalogue_", databaseId, ".zip")),
+  files = list.files("results_CatalogueExport", recursive = TRUE, full.names = TRUE)
+)

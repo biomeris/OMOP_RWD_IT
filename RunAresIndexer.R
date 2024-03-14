@@ -10,7 +10,8 @@ library(AresIndexer)
 source(here("ConnectionDetails.R"))
 
 # where should the results go?
-aresDataRoot <- file.path(here(), "output_Ares")
+outputFolder <- "output_Ares"
+aresDataRoot <- file.path(here(), outputFolder)
 
 # *******************************************************
 # SECTION 2: Run the package
@@ -61,3 +62,9 @@ tryCatch(
 # Copy DQD results to data source release folder in ares data folder
 inform("Copying DQD results to data source release folder in Ares data folder.")
 file.copy(from = file.path(here(), "results_DQD", paste0(databaseId, "-dqd-result.json")), file.path(datasourceReleaseOutputFolder, "dq-result.json"), overwrite = FALSE)
+
+## zip everything together
+zip(
+  zipfile = file.path(aresDataRoot, paste0("Results_Ares_", databaseId, ".zip")),
+  files = list.files(outputFolder, recursive = TRUE, full.names = TRUE)
+)
