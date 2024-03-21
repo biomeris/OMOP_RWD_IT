@@ -71,7 +71,7 @@ Dopo aver importato la definizione, per eseguire le analisi e ottenere i risulta
 * cliccare sul pulsante **Generate**, a fianco del nome del vostro database. Nel caso in cui ad una instanza di ATLAS siano collegati più sorgenti OMOP, assicurarsi di selezionare quella desiderata;
 * terminata l'esecuzione, cliccare sul pulsante **View latest results** per visualizzare i risultati.
 
-Da qui, sarà possibili anche esportare i risultati che dovranno essere condivisi con il coordinatore. Cliccando sul pulsante **X**, infatti, verrà avviato il download di un file zip. Una volta terminato il download, rinominare il file come **Results_ATLAS_*databaseId*.zip**. 
+Da qui, sarà possibile anche esportare i risultati che dovranno essere condivisi con il coordinatore. Cliccando sul pulsante **X** verrà avviato il download di un file zip. Una volta terminato il download, rinominare il file come **Results_ATLAS_*databaseId*.zip**. 
 
 ## Problemi
 
