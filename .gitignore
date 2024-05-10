@@ -3,9 +3,14 @@
 .RData
 .Ruserdata
 .Rprofile
+.Renviron
 .DS_Store
-output/
-results/
 renv/
-extras/network-unmapped-source-codes.csv
+ConnectionDetails-DEMO.R
+results_DQD/
+results_Achilles/
+results_CdmInspection/
+results_CatalogueExport/
+output_Ares/
+
 
