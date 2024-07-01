@@ -13,7 +13,7 @@ options(connectionObserver = NULL)
 outputFolder <- file.path(here(), "results_Achilles")
 
 # small counts
-smallCellCount <- 5 # To avoid patient identification, cells with small counts (<= smallCellCount) are deleted. Set to 0 for complete summary without small cell count restrictions.
+smallCellCount <- 30 # To avoid patient identification, cells with small counts (<= smallCellCount) are deleted. Set to 0 for complete summary without small cell count restrictions.
 
 # logging type 
 verboseMode <- TRUE # set to FALSE if you don't want the logs to be printed to the console
