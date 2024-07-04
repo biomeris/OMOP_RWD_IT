@@ -48,4 +48,4 @@ executeDqChecks(connectionDetails = connectionDetails,
                 writeToTable = writeToTable,
                 checkLevels = checkLevels,
                 tablesToExclude = tablesToExclude,
-                cdmVersion = cdmVersion)
+                cdmVersion = gsub("([[:digit:]]).([[:digit:]]).([[:digit:]])", "\\1.\\2", cdmVersion))
