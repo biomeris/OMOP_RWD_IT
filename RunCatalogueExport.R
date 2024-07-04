@@ -1,4 +1,5 @@
 library(here)
+library(dplyr)
 library(CatalogueExport)
 
 # *******************************************************
@@ -10,6 +11,9 @@ source(here("ConnectionDetails.R"))
 # where should the results and logs go?
 outputFolder <- file.path(here(), "results_CatalogueExport")
 
+# Which analysis will be performed?
+analysisIds <- getAnalysisDetails()$ANALYSIS_ID %>% .[!(. %in% c(730))]
+
 # *******************************************************
 # SECTION 2: Run the package
 # *******************************************************
@@ -19,6 +23,7 @@ catalogueExport(connectionDetails,
                 vocabDatabaseSchema = vocabDatabaseSchema,
                 sourceName = databaseId, 
                 cdmVersion = cdmVersion,
+                analysisIds = analysisIds,
                 outputFolder = outputFolder)
 
 ## zip everything together
