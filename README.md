@@ -88,4 +88,5 @@ Al termine delle analisi, se tutto avrà funzionato correttamente, ogni centro a
 
 I file elencati, dovranno essere condivisi con il centro coordinatore secondo le modalità comunicate.
 
-Grazie!
+## DPIA dello studio
+Si prega di prendere visione della valutazione d'impatto della protezione dei dati (DPIA) relativa allo studio ([DPIA/DPIA_OMOP_RWD_IT_signed.pdf](https://github.com/biomeris/OMOP_RWD_IT/blob/main/DPIA/DPIA_OMOP_RWD_IT_signed.pdf)) inviando conferma via mail al coordinatore. 
