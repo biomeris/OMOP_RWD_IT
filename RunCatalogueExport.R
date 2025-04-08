@@ -24,6 +24,7 @@ catalogueExport(connectionDetails,
                 sourceName = databaseId, 
                 cdmVersion = cdmVersion,
                 analysisIds = analysisIds,
+                smallCellCount = 30,
                 outputFolder = outputFolder)
 
 ## zip everything together
