@@ -20,7 +20,7 @@ outputFolder <- file.path(here(), "results_CdmInspection")
 baseUrl <- webapi_baseUrl
 
 # All results smaller than this value are removed from the results.
-smallCellCount <- 5
+smallCellCount <- 30
 
 verboseMode <- TRUE
 
